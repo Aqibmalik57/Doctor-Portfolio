@@ -1,5 +1,5 @@
 import React from 'react';
-import bg from '../../assets/homePic.png';
+import HomePic from '../../assets/homePic.png';
 import { FaWhatsapp } from 'react-icons/fa';
 
 const Home = () => {
@@ -52,7 +52,7 @@ const Home = () => {
 
           <div className='w-56 h-56 mb-7 sm:w-64 sm:h-64 md:w-80 md:h-80 mt-40 lg:w-96 lg:h-96 rounded-full overflow-hidden shadow-2xl border-4 border-indigo-600'>
             <img
-              src={bg}
+              src={HomePic}
               alt='Dr. Hassaan Zahid'
               className='w-full h-full object-cover'
             />
